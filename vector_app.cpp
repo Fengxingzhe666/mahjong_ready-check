@@ -51,7 +51,7 @@ std::vector<std::vector<int>> every_subset_gpt(std::vector<int> x, int n, bool f
     return subsets;
 }
 
-std::vector<int> Transform_string_to_int_vector(std::string input)
+std::vector<int> Transform_string_to_int_vector(const std::string& input)
 {
     std::vector<int> temp;
     std::vector<int> results;
@@ -105,32 +105,36 @@ int main()
     Check_Win c1;
     std::string a="";
     std::string b = "";
+    bool skip_label = true;
     while (true)
     {
-        cin >> a;
+        if(skip_label)
+            cin >> a;
         if (a != "q" && a != "Q")
         {
-            c1.v_13 = Transform_string_to_int_vector(a);
-            vector<string> ready = c1.check_if_ready();
-            //Display the contents of matched_combo
+            vector<string> ready = c1.check_if_ready(Transform_string_to_int_vector(a));
+            //显示匹配目标
             std::cout << "ready: ";
             for (int i = 0; i < ready.size(); i++)
             {
                 std::cout << ready[i] << " ";
             }
             std::cout << endl;
+
+            //等待输入
             cin >> b;
-            vector<int> b_vec = Transform_string_to_int_vector(b);
-            c1.v_14 = c1.v_13;
-            c1.v_14.insert(c1.v_14.end(),b_vec.begin(), b_vec.end());
-            c1.check_if_win();
-            for (const auto& row : c1.win_group)
+            if (b == "q" || b == "Q")
+                break;
+            std::vector<int> b_vec = Transform_string_to_int_vector(b);
+            if (b_vec.size() == 1)
             {
-                for (int val : row)
-                {
-                    std::cout << c1.tileMapping.at(val) << " ";
-                }
-                std::cout << std::endl;
+                c1.show_group(b_vec);
+                skip_label = true;
+            }
+            else
+            {
+                a = b;
+                skip_label = false;
             }
         }
         else

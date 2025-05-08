@@ -1,2 +1,5 @@
-﻿  vector_app.cpp
-  vector_app.vcxproj -> D:\C code\arraynew\vector_app\x64\Debug\vector_app.exe
+﻿  check_win.cpp
+D:\C_code\arraynew\vector_app\mahjong_ready-check\check_win.cpp(167,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  vector_app.cpp
+  正在生成代码...
+  vector_app.vcxproj -> D:\C_code\arraynew\vector_app\mahjong_ready-check\x64\Debug\vector_app.exe

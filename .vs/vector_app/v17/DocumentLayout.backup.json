@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\C code\\arraynew\\vector_app\\",
+  "WorkspaceRootPath": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C code\\arraynew\\vector_app\\vector_app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\vector_app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|solutionrelative:vector_app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C code\\arraynew\\vector_app\\check_win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|solutionrelative:check_win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|solutionrelative:check_win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C code\\arraynew\\vector_app\\check_win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|solutionrelative:check_win.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4806C7AD-E6E3-48CD-9AB9-7BF25729D547}|vector_app.vcxproj|solutionrelative:check_win.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,42 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "vector_app.cpp",
-              "DocumentMoniker": "D:\\C code\\arraynew\\vector_app\\vector_app.cpp",
+              "DocumentMoniker": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\vector_app.cpp",
               "RelativeDocumentMoniker": "vector_app.cpp",
-              "ToolTip": "D:\\C code\\arraynew\\vector_app\\vector_app.cpp",
+              "ToolTip": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\vector_app.cpp",
               "RelativeToolTip": "vector_app.cpp",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAIwHIAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAHMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-19T09:06:34.677Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "check_win.cpp",
-              "DocumentMoniker": "D:\\C code\\arraynew\\vector_app\\check_win.cpp",
+              "DocumentMoniker": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.cpp",
               "RelativeDocumentMoniker": "check_win.cpp",
-              "ToolTip": "D:\\C code\\arraynew\\vector_app\\check_win.cpp",
+              "ToolTip": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.cpp",
               "RelativeToolTip": "check_win.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "ViewState": "AQIAAMwAAAAAAAAAAAAAAN8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-20T06:46:37.787Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "check_win.h",
-              "DocumentMoniker": "D:\\C code\\arraynew\\vector_app\\check_win.h",
+              "DocumentMoniker": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.h",
               "RelativeDocumentMoniker": "check_win.h",
-              "ToolTip": "D:\\C code\\arraynew\\vector_app\\check_win.h",
+              "ToolTip": "D:\\C_code\\arraynew\\vector_app\\mahjong_ready-check\\check_win.h",
               "RelativeToolTip": "check_win.h",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAD0AAAArAAAAAAAAAA==",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAD8AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-20T06:50:00.291Z"
             }
