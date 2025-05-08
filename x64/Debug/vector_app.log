@@ -1,2 +1,5 @@
-﻿  vector_app.cpp
-  vector_app.vcxproj -> D:\C code\arraynew\inline\x64\Debug\vector_app.exe
+﻿  check_win.cpp
+E:\code\C code\vector_app\check_win.cpp(167,51): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  vector_app.cpp
+  正在生成代码...
+  vector_app.vcxproj -> E:\code\C code\手撕string\x64\Debug\vector_app.exe

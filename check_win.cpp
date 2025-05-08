@@ -5,9 +5,10 @@
 #include<unordered_map>
 #include"check_win.h"
 
-bool Check_Win::check_if_win()
+void Check_Win::check_if_win(const std::vector<int>& x)
 {
 	//函数定义写在这儿
+    v_14 = x;
     std::sort(v_14.begin(), v_14.end());
     win_state = false;
     for (int i = 0;i < combo.size();i++)
@@ -59,16 +60,17 @@ bool Check_Win::check_if_win()
     }
     else 
     {
-        return false;
+        //return false;
     }
     //调用完要把matched_combo清空，否则下次调用会再下边继续累加，运行时间指数增长
     matched_combo.clear();
     //win_state = win_group[0][0] != 0;
-    return win_state;
+    //return win_state;
 }
 
-std::vector<std::string> Check_Win::check_if_ready()
+std::vector<std::string> Check_Win::check_if_ready(const std::vector<int>& x)
 {
+    v_13 = x;
     if (v_13.size() != 13)
     {
         if (v_13.size() == 10)
@@ -114,7 +116,7 @@ std::vector<std::string> Check_Win::check_if_ready()
     {
         v_14 = v_13;
         v_14.push_back(i);
-        check_if_win();
+        check_if_win(v_14);
         if (win_state)
         {
             vo.push_back(i);
@@ -158,7 +160,7 @@ long long Check_Win:: C(int n, int m)
     }
     return res;
 }
-std::vector<std::vector<int>> Check_Win::every_subset(std::vector<int> x, int n,bool f)
+std::vector<std::vector<int>> Check_Win::every_subset(const std::vector<int>& x,const int& n,const bool& f)
 {
     //返回一个二维vector，枚举表示x中的每一种包含n个元素的子集，f表示是否去除重复组
     std::vector<int> temp(n);
@@ -203,4 +205,20 @@ std::vector<std::vector<int>> Check_Win::every_subset(std::vector<int> x, int n,
         results.erase(last, results.end());
     }
     return results;
+}
+
+void Check_Win::show_group(const std::vector<int>& x)
+{
+    //输入一个vector变量，将它与当前v13合并，并显示出win_group值
+    std::vector<int> temp = v_13;
+    temp.insert(temp.end(), x.begin(), x.end());
+    check_if_win(temp);
+    for (const auto& row : win_group)
+    {
+        for (int val : row)
+        {
+            std::cout << tileMapping.at(val) << " ";
+        }
+        std::cout << std::endl;
+    }
 }
